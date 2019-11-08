@@ -27,6 +27,9 @@ The raw data file contains 11 columns, but only 3 of the columns will be useful 
 #### How was the data collected?  
 Contributors read tweets and classified them as very positive, slightly positive, neutral, slightly negative, or very negative. They were also prompted to mark if the tweet was not relevant to self-driving cars.
 
+#### Ethical considerations
+The dataset does not contain personally identifiable data such as names or Twitter handle. The tweet itself is a part of the dataset, but even if one could possibly trace the tweets back to the individual, I assume there should be no issues since the tweets are publicly available for anyone on the web to see. 
+
 ## Data Licensing 
 The permissions are clearly mentioned at the top of the [dataset page](https://www.figure-eight.com/data-for-everyone/). 
 
