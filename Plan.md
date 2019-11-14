@@ -7,15 +7,15 @@ Autonomous driving has created a wave in the society in the last decade. The pub
 against the idea of bringing self-driving cars to road from the outset. This project is an attempt to understand and analyse the general vibe around self-driving 
 as expressed on Twitter around end of May in 2015. This was around the time when news was flying about Google's self-driving test initiative - 
 [Google to begin testing purpose-built self-driving cars on public roads](https://www.theguardian.com/technology/2015/may/15/google-testing-purpose-built-self-driving-cars-public-roads).
-Also around the same time were articles about accidents being caused by self-driving cars - [Self-driving car accidents revealed in California](https://www.bbc.com/news/technology-32691887)
+Also around the same time were articles about accidents being caused by self-driving cars - [Self-driving car accidents revealed in California](https://www.bbc.com/news/technology-32691887).
 
 ## Background
-There is surprisingly very little prior work on this dataset. Of the ones that I found, most of them were doing sentiment analysis and prediction using machine learning methods [1]. The wish to take a slightly different approach for this project.
+There is surprisingly very little prior work on this dataset. Of the ones that I found, most of them were doing sentiment analysis and prediction using machine learning methods [1]. I wish to take a slightly different approach for this project.
 
 ## Research Directions
 - What is the general sentiment of people around self-driving cars?
 - What promoted these opinions? 
-- What are people talking about? Did the happennings around the world sway people in one direction or another?
+- What are people talking about? Did the happennings around the world sway people in one direction or another? 
 - Study of the type of words used to express positive and negative sentiment
 
 ## Dataset 
@@ -42,7 +42,14 @@ Contributors read tweets and classified them as very positive, slightly positive
 The dataset does not contain personally identifiable data such as names or Twitter handle. The tweet itself is a part of the dataset, but even if one could possibly trace the tweets back to the individual, I assume there should be no issues since the tweets are publicly available for anyone on the web to see. 
 
 ## Methodology
-I intend to take a thick-data approach to questions around what caused people to form certain opinions and sentiments about the self-driving technology. 
+I intend to take a thick-data approach to answer questions around what caused people to form certain opinions and sentiments about the self-driving technology. This will help answer my initial suspicions about whether the Twitter responses were guided by the 2 events that happened around the same time - Google's self-driving test announcement and news about car accidents in California. I also want to conduct some quantitative analysis of the tweets. 
+#### Data processing
+As a first step, I plan on doing some exploratory analysis and generating plots to gain a good understanding of the dataset. For preparing the data for my analyses, I plan on using python's [NLTK Library](https://www.nltk.org/) for removing stopwords, [stemming](http://www.nltk.org/api/nltk.stem.html?highlight=lemmatizer) and obtaining [ngrams](https://www.nltk.org/api/nltk.html#nltk.util.ngrams). 
+#### Deliverables
+- Visualizations of the data distribution and the most popular positive and negative words
+- A semi-ethnographic report of people's sentiment regarding self-driving cars
+- Topic-modelling to see what issues people are addressing within the broad umbrella of self-driving (Nice-to-have). 
+
 
 ## Data Licensing 
 The permissions are clearly mentioned at the top of the [dataset page](https://www.figure-eight.com/data-for-everyone/). 
