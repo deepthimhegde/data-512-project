@@ -53,10 +53,17 @@ Contributors read tweets and classified them as very positive, slightly positive
 The dataset does not contain personally identifiable data such as names or Twitter handle. The tweet itself is a part of the dataset, but even if one could possibly trace the tweets back to the individual, I assume there should be no issues since the tweets are publicly available for anyone on the web to see. 
 
 #### Summary of results
-Addressing the initial questions I set out to answer -
-What is the general sentiment of people around self-driving cars? **Positive-skewed**
-What promoted these opinions? **Google's self-driving test launch and accidents in California (speculation)**
-What are people talking about? **Google**
+Addressing the initial questions I set out to answer -\ 
+What is the general sentiment of people around self-driving cars? **Positive-skewed**\
+What promoted these opinions? **Google's self-driving test launch and accidents in California (speculation)**\
+What are people talking about? **Google**\
+
+| Sentiment              | Top 10 words | Word Cloud |  
+|--------------------|---------------|---------------|  
+|Positive |![Positive](output/positive.png) | ![Positive](output/positive_wc.png)|  
+|Negative  |![Negative](output/negative.png) | ![Negative](output/negative_wc.png)|
+|Neutral   |![Neutral](output/neutral.png) | ![Neutral](output/neutral_wc.png)|
+
 
 
 ## Unknowns/Limitations
