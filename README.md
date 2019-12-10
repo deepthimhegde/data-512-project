@@ -54,7 +54,7 @@ The dataset does not contain personally identifiable data such as names or Twitt
 
 #### Summary of results
 Addressing the initial questions I set out to answer - <br/>
-What is the general sentiment of people around self-driving cars? **Positive-skewed** <br/>
+What is the general sentiment of people around self-driving cars? **Neutral** <br/>
 What promoted these opinions? **Google's self-driving test launch and accidents in California (speculation)** <br/>
 What are people talking about? **Google** <br/>
 
